@@ -1,0 +1,118 @@
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+   display: flex;
+   flex-flow: column;
+   height: 100%;
+   padding-bottom:70px;
+   box-sizing: border-box;
+}
+.main-header {
+  padding-bottom: 22%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  height:50px;
+  background-color: #2B2B2B;
+  font-size:1rem;
+}
+header .left{
+  float:left;
+  text-decoration: none;
+}
+header .right {
+  float:right;
+  text-decoration: none;
+}
+header a {
+  color: #fff;
+   display:block;
+   text-decoration: none;
+   list-style: none;
+   padding:15px;
+}
+header li {
+  list-style: none;
+}
+header ul:after {
+  content: "";
+  display:block;
+  clear:both;
+}
+/* ここまでがheader部分の実装 */
+.container{
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+.main-header{
+  position:relative;
+}
+.main-header img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 13%;
+}
+.about{
+  display:center;
+}
+.about h1{
+  font-size: 1.5rem;
+}
+.about p{
+  font-size: :0.8rem;
+}
+/* ここから */
+.function {
+background-color: #D3D3D3;
+float:left;
+width:100%;
+height:auto;
+}
+.function-images {
+ /* display: center; */
+ margin:0 30%;
+ display: center;
+ float left;
+ width:100%;
+}
+.function-image {
+  float:left;
+  margin:20px;
+}
+
+footer {
+  display:table;
+  width:100%;
+  height:70px;
+  background-color: #283A4B;
+  text-align:center;
+  color: #fff;
+  vertical-align:middle;
+  }
+
+footer p{
+  display:table-cell;
+  width:100%;
+  height:70px;
+  text-align:center;
+  font-size: 0.8rem;
+   vertical-align:middle;
+}
+
+.cleafix:after{
+  content="";
+  display:block;
+  clear:both;
+}
